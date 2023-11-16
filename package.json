@@ -8,7 +8,8 @@
 	"build": "npm run build:development",
 	"build:production": "webpack --mode production",
 	"build:development": "webpack --mode development",
-	"start:development": "webpack serve --mode development --open"
+	"start:development": "webpack serve --mode development --open",
+	"deploy:gh-pages": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
