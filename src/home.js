@@ -1,10 +1,12 @@
 
+import restaurantImage from "./img/restaurant-image.svg";
+
 export function createHomePage() {
 	const content = document.getElementById('content');
 	content.textContent = '';
-	
+
 	const image = document.createElement('img');
-	image.src = 'restaurant-image.jpg';
+	image.src = restaurantImage;
 
 	const title = document.createElement('h1');
 	title.textContent = 'Le restaurant merveilleux';

@@ -1,6 +1,7 @@
 import { createHomePage } from "./home.js";
 import { populateMenu } from "./menu.js";
 import { listContacts } from "./contact.js";
+import "./css/style.css";
 
 const homePageButton = document.createElement("button");
 homePageButton.textContent = "Home Page";
