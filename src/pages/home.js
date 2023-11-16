@@ -1,5 +1,5 @@
 
-import restaurantImage from "./img/restaurant-image.svg";
+import restaurantImage from "../img/restaurant-image.svg";
 
 export function createHomePage() {
 	const content = document.getElementById('content');

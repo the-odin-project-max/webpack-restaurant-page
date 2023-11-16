@@ -1,6 +1,6 @@
-import { createHomePage } from "./home.js";
-import { populateMenu } from "./menu.js";
-import { listContacts } from "./contact.js";
+import { createHomePage } from "./pages/home.js";
+import { populateMenu } from "./pages/menu.js";
+import { listContacts } from "./pages/contact.js";
 import "./css/style.css";
 
 const homePageButton = document.createElement("button");
